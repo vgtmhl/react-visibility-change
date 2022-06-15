@@ -8,6 +8,8 @@ The reason why I am tackling this is because I have a component that does infini
 
 The Intersection Observer API lets code register a callback function that is executed whenever an element they wish to monitor enters or exits another element (or the viewport), or when the amount by which the two intersect changes by a requested amount. This way, sites no longer need to do anything on the main thread to watch for this kind of element intersection, and the browser is free to optimize the management of intersections as it sees fit.
 
+[Live sandbox](https://codesandbox.io/s/github/vgtmhl/react-visibility-change/tree/master?file=/src/App.jsx)
+
 ## In short
 
 The Intersection Observer API allows you to configure a callback that is called when a target element intersects the viewport.
