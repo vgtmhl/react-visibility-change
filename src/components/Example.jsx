@@ -2,7 +2,7 @@ import React from 'react'
 
 const Example = ({ innerRef }) => {
     return (
-        <div class="example" ref={innerRef}>Example</div>
+        <div className="example" ref={innerRef}>Example</div>
     )
 }
 
