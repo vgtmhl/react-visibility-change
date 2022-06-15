@@ -7,7 +7,7 @@ function App() {
   const targetRef = useRef(null)
   const intervalId = useRef(null)
 
-  // log to console when observed item enters/exists the viewport
+  // log to console every 1s while the observed component is inside the viewport
   useEffect(() => {
     if (isVisible && !intervalId.current) {
       intervalId.current = setInterval(() => {
