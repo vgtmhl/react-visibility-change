@@ -12,6 +12,9 @@ The Intersection Observer API lets code register a callback function that is exe
 
 The Intersection Observer API allows you to configure a callback that is called when a target element intersects the viewport.
 
+In this example, I have a function running once every second and logging to console.
+This is only done while the Example component is in sight.
+
 ### Reference:
 - https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
 - https://www.telerik.com/blogs/observing-visibility-in-react
